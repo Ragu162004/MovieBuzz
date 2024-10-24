@@ -33,7 +33,7 @@ const GenreMovies = () => {
     return (
         <div className='carouselSection'>
             <ContentWrapper>
-                <span className="carouselTitle">Movies by Genre</span>
+                <span className="carouselTitle">Based on Your Recent Search</span>
             </ContentWrapper>
             <Carousel data={genreMovies?.results} loading={genreLoading} endpoint={endpoint} />
         </div>
