@@ -4,11 +4,13 @@ import HeroBanner from "./heroBanner/HeroBanner";
 import Trending from './trending/Trending';
 import Popular from './popular/Popular';
 import TopRated from './topRated/TopRated';
+import GenreMovies from './genreMovies/GenreMovies';
 
 const Home = () => {
   return (
     <div className='homePage'>
       <HeroBanner/>
+      <GenreMovies/>
       <Trending/>
       <Popular/>
       <TopRated/>
